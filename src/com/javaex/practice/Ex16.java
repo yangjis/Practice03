@@ -12,8 +12,7 @@ Scanner scan = new Scanner(System.in);
 		
 		System.out.print("숫자를 입력하세요: ");
 		int num = scan.nextInt();
-		int count = 0;
-		int sum = 0;
+		int count = 0, sum = 0;
 		
 		for(int i = 1; i <= num; i++){
 			if(i%5 == 0) {

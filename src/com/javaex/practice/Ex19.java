@@ -15,8 +15,7 @@ public class Ex19 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		int num, result; 
-		int money = 0;
+		int num, result, money = 0; 
 		
 		do{
 			System.out.println("-----------------------------");

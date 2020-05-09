@@ -23,8 +23,8 @@ public class Ex20 {
 		
 		double randomValue = Math.random();
 		int secretNum = (int)(randomValue * 100) + 1;
-		
 		int num;
+		
 		char nextGame = 'n'; 
 		
 		do {
@@ -33,8 +33,10 @@ public class Ex20 {
 			
 			if(num > secretNum) {
 				System.out.println("더 낮게");
+				
 			}else if(num < secretNum) {
 				System.out.println("더 높게");
+				
 			}else {
 				System.out.println("맞았습니다.");
 				System.out.print("게임을 종료하시겠습니까?(y/n) >>");

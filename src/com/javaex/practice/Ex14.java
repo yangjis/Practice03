@@ -24,6 +24,6 @@ public class Ex14 {
 			sum = sum + i;
 		}
 		System.out.println();
-		System.out.println("함계: " + sum);
+		System.out.println("합계: " + sum);
 	}
 }
