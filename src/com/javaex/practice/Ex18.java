@@ -13,21 +13,18 @@ public class Ex18 {
 		
 		System.out.print("숫자를 입력하세요: ");
 		int num = scan.nextInt();
+		int i,x;
 		
-		for(int i = 1; i <= num; i++) {
-			for(int x = num; x >= i ; x--) {
+		for(i = 1; i <= num; i++) {
+			for(x = num; x >= i ; x--) {
 				System.out.print("*");
-				
-				if(i == num) {
-					System.out.println();
-					
-					for(int y = 1; y <= num; y++) {
-						for(int z = 1; z <= y; z++) {
-							System.out.print("*");
-						}
-						System.out.println();
-					}
-				}
+			}
+			System.out.println();
+		}
+		
+		for(i = 1; i <= num; i++) {
+			for(x = 1; x <= i; x++) {
+				System.out.print("*");
 			}
 			System.out.println();
 		}
