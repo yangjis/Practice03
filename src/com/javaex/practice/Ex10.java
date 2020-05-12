@@ -28,5 +28,6 @@ public class Ex10 {
 		
 		System.out.println("최대값은 " + big + "입니다.");
 
+		scan.close();
 	}
 }

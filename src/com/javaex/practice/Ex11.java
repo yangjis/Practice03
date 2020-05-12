@@ -34,5 +34,6 @@ public class Ex11 {
 		
 		System.out.println("결과값: " + sum);
 		
+		scan.close();
 	}
 }

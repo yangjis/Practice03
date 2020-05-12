@@ -28,7 +28,7 @@ public class Ex18 {
 			}
 			System.out.println();
 		}
-		
+		scan.close();
 	}
 
 }

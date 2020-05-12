@@ -21,6 +21,7 @@ public class Ex12 {
 			result = result * i;
 		}
 		System.out.println("결과값: " + result);
-
+		
+		scan.close();
 	}
 }

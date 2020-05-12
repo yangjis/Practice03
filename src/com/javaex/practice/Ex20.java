@@ -54,6 +54,8 @@ public class Ex20 {
 		System.out.println("	[숫자 맞추기 게임 종료]");
 		System.out.println("=================================");
 		
+		scan.close();
+		
 	}
 
 }

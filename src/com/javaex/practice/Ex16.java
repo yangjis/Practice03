@@ -22,5 +22,7 @@ Scanner scan = new Scanner(System.in);
 		}
 		System.out.println("5의배수의 개수: "+count);
 		System.out.println("5의배수의 합: " + sum);
+		
+		scan.close();
 	}
 }

@@ -20,5 +20,7 @@ public class Ex13 {
 			sum = sum + i;
 		}
 		System.out.println("합계: " + sum);
+		
+		scan.close();
 	}
 }

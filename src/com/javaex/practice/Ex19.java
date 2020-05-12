@@ -48,8 +48,6 @@ public class Ex19 {
 			}
 		}while(num !=4 );
 		
-			
-		
-		
+		scan.close();		
 	}
 }
